@@ -1,0 +1,27 @@
+# Dataset bruto (arquivos grandes, nao versionar)
+iot_23_datasets_small/
+iot_23_datasets_small.tar.gz
+
+# CSVs e Parquets gerados pelos scripts
+*.csv
+*.parquet
+
+# Ambientes virtuais
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Variaveis de ambiente
+.env
+
+# Sistema operacional
+Thumbs.db
+.DS_Store
+__/

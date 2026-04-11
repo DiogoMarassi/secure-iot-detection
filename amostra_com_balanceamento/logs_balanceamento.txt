@@ -1,0 +1,258 @@
+[01/22] CTU-Honeypot-Capture-4-1
+  Pass 1: contando classes... OK -> 452 flows | 1 classes
+  Tipo A -> pega 100% (452 linhas)
+  Resultado: 452 linhas
+  Distribuicao:
+    -                                                  452  (100.0% do original)
+
+[02/22] CTU-Honeypot-Capture-5-1
+  Pass 1: contando classes... OK -> 1,374 flows | 1 classes
+  Tipo A -> pega 100% (1,374 linhas)
+  Resultado: 1,374 linhas
+  Distribuicao:
+    -                                                1,374  (100.0% do original)
+
+[03/22] CTU-IoT-Malware-Capture-1-1
+  Pass 1: contando classes... OK -> 1,008,748 flows | 3 classes
+  Tipo B -> Pass 2: amostrando...
+  Orcamento (5%): 50,437 flows
+  Classes raras  (1): 8 flows -> 100%
+  Classes nao raras (2): min=469,275 -> quota por classe=25,214
+  Resultado: 50,435 linhas
+  Distribuicao:
+    PartOfAHorizontalPortScan                       25,214  (4.7% do original)
+    -                                               25,213  (5.4% do original)
+    C&C                                                  8  (100.0% do original)
+
+[04/22] CTU-IoT-Malware-Capture-17-1
+  Pass 1: contando classes... OK -> 54,659,855 flows | 7 classes
+  Tipo B -> Pass 2: amostrando...
+  Orcamento (5%): 2,732,992 flows
+  Classes raras  (4): 38,281 flows -> 100%
+  Classes nao raras (3): min=13,655,172 -> quota por classe=898,237
+  Resultado: 2,732,990 linhas
+  Distribuicao:
+    PartOfAHorizontalPortScan                      898,241  (3.3% do original)
+    Okiru                                          898,236  (6.6% do original)
+    DDoS                                           898,232  (6.6% do original)
+    -                                               31,438  (100.0% do original)
+    C&C-HeartBeat                                    6,834  (100.0% do original)
+    PartOfAHorizontalPortScan-Attack                     5  (100.0% do original)
+    Attack                                               4  (100.0% do original)
+
+[05/22] CTU-IoT-Malware-Capture-20-1
+  Pass 1: contando classes... OK -> 3,209 flows | 2 classes
+  Tipo A -> pega 100% (3,209 linhas)
+  Resultado: 3,209 linhas
+  Distribuicao:
+    -                                                3,193  (100.0% do original)
+    C&C-Torii                                           16  (100.0% do original)
+
+[06/22] CTU-IoT-Malware-Capture-21-1
+  Pass 1: contando classes... OK -> 3,286 flows | 2 classes
+  Tipo A -> pega 100% (3,286 linhas)
+  Resultado: 3,286 linhas
+  Distribuicao:
+    -                                                3,272  (100.0% do original)
+    C&C-Torii                                           14  (100.0% do original)
+
+[07/22] CTU-IoT-Malware-Capture-3-1
+  Pass 1: contando classes... OK -> 156,103 flows | 4 classes
+  Tipo A -> pega 100% (156,103 linhas)
+  Resultado: 156,103 linhas
+  Distribuicao:
+    PartOfAHorizontalPortScan                      145,597  (100.0% do original)
+    Attack                                           5,962  (100.0% do original)
+    -                                                4,536  (100.0% do original)
+    C&C                                                  8  (100.0% do original)
+
+[08/22] CTU-IoT-Malware-Capture-33-1
+  Pass 1: contando classes... OK -> 54,454,591 flows | 4 classes
+  Tipo B -> Pass 2: amostrando...
+  Orcamento (5%): 2,722,729 flows
+  Classes raras  (1): 5,278 flows -> 100%
+  Classes nao raras (3): min=1,380,791 -> quota por classe=905,817
+  Resultado: 2,722,734 linhas
+  Distribuicao:
+    PartOfAHorizontalPortScan                      905,821  (2.3% do original)
+    -                                              905,820  (65.6% do original)
+    Okiru                                          905,815  (6.7% do original)
+    C&C-HeartBeat                                    5,278  (100.0% do original)
+
+[09/22] CTU-IoT-Malware-Capture-34-1
+  Pass 1: contando classes... OK -> 23,145 flows | 4 classes
+  Tipo A -> pega 100% (23,145 linhas)
+  Resultado: 23,145 linhas
+  Distribuicao:
+    DDoS                                            14,394  (100.0% do original)
+    C&C                                              6,706  (100.0% do original)
+    -                                                1,923  (100.0% do original)
+    PartOfAHorizontalPortScan                          122  (100.0% do original)
+
+[10/22] CTU-IoT-Malware-Capture-35-1
+  Pass 1: contando classes... OK -> 10,447,787 flows | 5 classes
+  Tipo B -> Pass 2: amostrando...
+  Orcamento (5%): 522,389 flows
+  Classes raras  (3): 96 flows -> 100%
+  Classes nao raras (2): min=2,185,302 -> quota por classe=261,146
+  Resultado: 522,384 linhas
+  Distribuicao:
+    DDoS                                           261,146  (12.0% do original)
+    -                                              261,142  (3.2% do original)
+    C&C                                                 81  (100.0% do original)
+    C&C-FileDownload                                    12  (100.0% do original)
+    Attack                                               3  (100.0% do original)
+
+[11/22] CTU-IoT-Malware-Capture-36-1
+  Pass 1: contando classes... OK -> 13,645,098 flows | 4 classes
+  Tipo B -> Pass 2: amostrando...
+  Orcamento (5%): 682,254 flows
+  Classes raras  (3): 18,354 flows -> 100%
+  Classes nao raras (1): min=13,626,744 -> quota por classe=663,900
+  Resultado: 682,255 linhas
+  Distribuicao:
+    Okiru                                          663,901  (4.9% do original)
+    C&C-HeartBeat                                   15,688  (100.0% do original)
+    -                                                2,663  (100.0% do original)
+    Okiru-Attack                                         3  (100.0% do original)
+
+[12/22] CTU-IoT-Malware-Capture-39-1
+  Pass 1: contando classes... OK -> 73,568,981 flows | 4 classes
+  Tipo B -> Pass 2: amostrando...
+  Orcamento (5%): 3,678,449 flows
+  Classes raras  (3): 9,544 flows -> 100%
+  Classes nao raras (1): min=73,559,437 -> quota por classe=3,668,905
+  Resultado: 3,678,447 linhas
+  Distribuicao:
+    PartOfAHorizontalPortScan                     3,668,903  (5.0% do original)
+    -                                                7,337  (100.0% do original)
+    C&C                                              1,530  (100.0% do original)
+    Attack                                             677  (100.0% do original)
+
+[13/22] CTU-IoT-Malware-Capture-42-1
+  Pass 1: contando classes... OK -> 4,426 flows | 3 classes
+  Tipo A -> pega 100% (4,426 linhas)
+  Resultado: 4,426 linhas
+  Distribuicao:
+    -                                                4,420  (100.0% do original)
+    FileDownload                                         3  (100.0% do original)
+    C&C-FileDownload                                     3  (100.0% do original)
+
+[14/22] CTU-IoT-Malware-Capture-43-1
+  Pass 1: contando classes... OK -> 67,321,809 flows | 7 classes
+  Tipo B -> Pass 2: amostrando...
+  Orcamento (5%): 3,366,090 flows
+  Classes raras  (4): 69,316 flows -> 100%
+  Classes nao raras (3): min=8,765,885 -> quota por classe=1,098,924
+  Resultado: 3,366,080 linhas
+  Distribuicao:
+    -                                             1,098,923  (5.3% do original)
+    Okiru                                         1,098,922  (12.5% do original)
+    PartOfAHorizontalPortScan                     1,098,919  (2.9% do original)
+    DDoS                                            65,803  (100.0% do original)
+    C&C                                              3,498  (100.0% do original)
+    C&C-FileDownload                                    14  (100.0% do original)
+    FileDownload                                         1  (100.0% do original)
+
+[15/22] CTU-IoT-Malware-Capture-44-1
+  Pass 1: contando classes... OK -> 237 flows | 4 classes
+  Tipo A -> pega 100% (237 linhas)
+  Resultado: 237 linhas
+  Distribuicao:
+    -                                                  211  (100.0% do original)
+    C&C                                                 14  (100.0% do original)
+    C&C-FileDownload                                    11  (100.0% do original)
+    DDoS                                                 1  (100.0% do original)
+
+[16/22] CTU-IoT-Malware-Capture-48-1
+  Pass 1: contando classes... OK -> 3,394,338 flows | 6 classes
+  Tipo B -> Pass 2: amostrando...
+  Orcamento (5%): 169,716 flows
+  Classes raras  (5): 8,219 flows -> 100%
+  Classes nao raras (1): min=3,386,119 -> quota por classe=161,497
+  Resultado: 169,716 linhas
+  Distribuicao:
+    PartOfAHorizontalPortScan                      161,497  (4.8% do original)
+    -                                                3,734  (100.0% do original)
+    Attack                                           2,752  (100.0% do original)
+    C&C-PartOfAHorizontalPortScan                      888  (100.0% do original)
+    C&C-HeartBeat-Attack                               834  (100.0% do original)
+    C&C-HeartBeat-FileDownload                          11  (100.0% do original)
+
+[17/22] CTU-IoT-Malware-Capture-49-1
+  Pass 1: contando classes... OK -> 5,410,561 flows | 5 classes
+  Tipo B -> Pass 2: amostrando...
+  Orcamento (5%): 270,528 flows
+  Classes raras  (4): 5,602 flows -> 100%
+  Classes nao raras (1): min=5,404,959 -> quota por classe=264,926
+  Resultado: 270,528 linhas
+  Distribuicao:
+    PartOfAHorizontalPortScan                      264,926  (4.9% do original)
+    -                                                3,665  (100.0% do original)
+    C&C                                              1,922  (100.0% do original)
+    FileDownload                                        14  (100.0% do original)
+    C&C-FileDownload                                     1  (100.0% do original)
+
+[18/22] CTU-IoT-Malware-Capture-52-1
+  Pass 1: contando classes... OK -> 19,781,378 flows | 5 classes
+  Tipo B -> Pass 2: amostrando...
+  Orcamento (5%): 989,068 flows
+  Classes raras  (4): 1,814 flows -> 100%
+  Classes nao raras (1): min=19,779,564 -> quota por classe=987,254
+  Resultado: 989,065 linhas
+  Distribuicao:
+    PartOfAHorizontalPortScan                      987,251  (5.0% do original)
+    -                                                1,794  (100.0% do original)
+    C&C-FileDownload                                    12  (100.0% do original)
+    C&C                                                  6  (100.0% do original)
+    C&C-Mirai                                            2  (100.0% do original)
+
+[19/22] CTU-IoT-Malware-Capture-60-1
+  Pass 1: contando classes... OK -> 3,581,028 flows | 3 classes
+  Tipo B -> Pass 2: amostrando...
+  Orcamento (5%): 179,051 flows
+  Classes raras  (2): 2,571 flows -> 100%
+  Classes nao raras (1): min=3,578,457 -> quota por classe=176,480
+  Resultado: 179,051 linhas
+  Distribuicao:
+    DDoS                                           176,480  (4.9% do original)
+    -                                                2,476  (100.0% do original)
+    C&C-HeartBeat                                       95  (100.0% do original)
+
+[20/22] CTU-IoT-Malware-Capture-7-1
+  Pass 1: contando classes... OK -> 11,454,714 flows | 4 classes
+  Tipo B -> Pass 2: amostrando...
+  Orcamento (5%): 572,735 flows
+  Classes raras  (3): 121,317 flows -> 100%
+  Classes nao raras (1): min=11,333,397 -> quota por classe=451,418
+  Resultado: 572,735 linhas
+  Distribuicao:
+    Okiru                                          451,418  (4.0% do original)
+    -                                               75,955  (100.0% do original)
+    DDoS                                            39,584  (100.0% do original)
+    C&C-HeartBeat                                    5,778  (100.0% do original)
+
+[21/22] CTU-IoT-Malware-Capture-8-1
+  Pass 1: contando classes... OK -> 10,403 flows | 2 classes
+  Tipo A -> pega 100% (10,403 linhas)
+  Resultado: 10,403 linhas
+  Distribuicao:
+    C&C                                              8,222  (100.0% do original)
+    -                                                2,181  (100.0% do original)
+
+[22/22] CTU-IoT-Malware-Capture-9-1
+  Pass 1: contando classes... OK -> 6,378,293 flows | 2 classes
+  Tipo B -> Pass 2: amostrando...
+  Orcamento (5%): 318,914 flows
+  Classes raras  (1): 22,548 flows -> 100%
+  Classes nao raras (1): min=6,355,745 -> quota por classe=296,366
+  Resultado: 318,913 linhas
+  Distribuicao:
+    PartOfAHorizontalPortScan                      296,365  (4.7% do original)
+    -                                               22,548  (100.0% do original)
+
+======================================================================
+
+Total final  : 16,457,968 linhas
+Arquivo salvo: dataset_balanceado.csv (2619 MB)
+Concluido!
