@@ -3,7 +3,12 @@
     "allow": [
       "Bash(python3:*)",
       "Bash(py:*)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(\\\\\"unknown\\\\\")",
+      "Bash(\\\\\"none\\\\\")",
+      "Bash(duration)",
+      "Bash(str)",
+      "Bash(\\\\\"-\\\\\")"
     ]
   }
 }
